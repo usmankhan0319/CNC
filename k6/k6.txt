@@ -1,0 +1,4 @@
+k6 run simple_test.js
+
+Adding more VUs
+k6 run --vus 10 --duration 30s simple_test.js
